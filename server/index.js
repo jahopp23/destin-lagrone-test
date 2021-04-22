@@ -1,4 +1,4 @@
-const dotenv = require('dotenv').config({ path: 'config.env' });
+const dotenv = require('dotenv').config({ path: '.config.env' });
 const express = require('express');
 const session = require('express-session');
 const helmet = require('helmet');
