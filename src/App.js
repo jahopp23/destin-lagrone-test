@@ -30,7 +30,11 @@ import NotFound404 from "./components/NotFound404"
 
 import { useSelector, useDispatch } from "react-redux";
 
+
+
 function App(props) {
+
+ 
   const [quantity, setQuantity] = useState();
 
   const config = useSelector(state => state.reducers.config);
